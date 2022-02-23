@@ -15,13 +15,21 @@
 <h1>Birds by: Mackenzie Bishop</h1>
 
 <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+  <a
+    class="btn btn-primary dropdown-toggle"
+    href="#"
+    role="button"
+    id="dropdownMenuLink"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
     Page Links
-  <spanv class="caret"></spanv></button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="basic.html">Basic</a>
-    <a class="dropdown-item" href="advanced.html">Advanced</a>
-  </div>
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Basics</a></li>
+    <li><a class="dropdown-item" href="#">Advanced</a></li>
+  </ul>
 </div>
 
 <div class="container">
